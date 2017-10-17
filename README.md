@@ -1,18 +1,7 @@
 # vuejs2_groovy_java8_spring_boot
 
-> Descricao do projeto
+## WEB - Projeto webapp (SPA) VUEJS 2
 
-## Build Setup
+## Java/server-jpa: Aplicação BACKEND REST com DB RELACIONAL + JPA
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Java/server-mongo: Aplicação BACKEND REST com MongoDB
