@@ -3,7 +3,8 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
-/transaction-logs/
+java/server-jpa/transaction-logs/
+java/server-mongo/transaction-logs/
 
 # Editor directories and files
 *.suo
