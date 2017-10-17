@@ -3,6 +3,7 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
+/transaction-logs/
 
 # Editor directories and files
 *.suo
