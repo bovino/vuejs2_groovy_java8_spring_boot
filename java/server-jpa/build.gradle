@@ -31,8 +31,10 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-jersey')
 	compile('org.springframework.boot:spring-boot-starter-jta-atomikos')
 	compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.projectlombok:lombok')
 	compile('org.codehaus.groovy:groovy')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.springframework.security:spring-security-test')
+	
 }
