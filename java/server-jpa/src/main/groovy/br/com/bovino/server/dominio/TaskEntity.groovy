@@ -1,23 +1,31 @@
 package br.com.bovino.server.dominio
 
-import lombok.AllArgsConstructor
+import lombok.Data
 import lombok.EqualsAndHashCode
 import lombok.Getter
 import lombok.Setter
 
-@AllArgsConstructor
-@EqualsAndHashCode
-@Getter @Setter
-class TaskEntity {
+import com.fasterxml.jackson.annotation.JsonFormat
+import com.fasterxml.jackson.annotation.JsonProperty
 
-	Long id
+@EqualsAndHashCode
+@Data
+class TaskEntity {
+	@JsonProperty("id")
+	private @Getter @Setter Long id
 	
-	String description
+	@JsonProperty("description")
+	private @Getter @Setter String description	
 	
-	String title
+	@JsonProperty("title")
+	private @Getter @Setter String title	
 	
-	Date date
+	@JsonProperty("date")
+	@JsonFormat(
+		shape = JsonFormat.Shape.STRING,
+		pattern = "dd-MM-yyyy hh:mm:ss")
+	private @Getter @Setter Date date	
 	
-	String picturePath
-	
+	@JsonProperty("picturePath")
+	private @Getter @Setter String picturePath
 }
